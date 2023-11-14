@@ -2,48 +2,47 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Prediccion de magnitud de terremotos de acuerdo a las posicion geografica.
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Realizar un algoritmo para la predicción de la magnitud de los terremotos basado en la logintud, latitud, y profundidad.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- Los datos son extraidos del siguente link de kaggle [Earthquake](https://www.kaggle.com/datasets/shivd24coder/latest-earthquakeeruption-dataset-upto-2023/data) 
+- Algoritmo para dar una aproximación de la magnitud de un terremoto con basado en latitud, longitud, profundidad.
+- Aproximación cercana para los datos obtenidos del dataset.
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+- Analisis de las posibles causas
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+Avances semanales de los siguientes puntos del cronograma.
 
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Entendimiento del negocio y carga de datos | 1 semanas | del 6 de noviembre al 10 de noviembre |
+| Preprocesamiento, análisis exploratorio | 1 semanas | del 10 de noviembre al 17 de noviembre |
+| Modelamiento y extracción de características | 1 semanas | del 20 de noviembre al 24 de noviembre |
+| Despliegue | 1 semanas | del 27 de noviembre al 1 de diciembre |
+| Evaluación y entrega final | 1 semanas | del 1 de diciembre al 8 de diciembre |
 
 Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Yonny Clinton Nova
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+N/A
 
 ## Stakeholders
 
