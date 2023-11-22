@@ -2,37 +2,36 @@
 
 ## Base de datos 1
 
-**Agregar una descripción de la tabla o fuente de datos.
+**Toda los datos son de el siguiente [link](https://www.kaggle.com/code/mohamedoukajbar/earthquake-data-analysis-and-clustering-earthquake/input) .
 
-| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-
-- **Variable**: nombre de la variable.
-- **Descripción**: breve descripción de la variable.
-- **Tipo de dato**: tipo de dato que contiene la variable.
-- **Rango/Valores posibles**: rango o valores que puede tomar la variable.
-- **Fuente de datos**: fuente de los datos de la variable.
-
-## Base de datos 2
-
-**Agregar una descripción de la tabla o fuente de datos.
-
-| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| Columnas                   | Descripción                                                                                                   | Tipo de dato  | Rango/Valores posibles                                                                                                                                                                |
+|----------------------------|---------------------------------------------------------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date                       | fecha de toma de la variable                                                                                  | object        | 1 enero 1965 - 29 diciembre 2016                                                                                                                                                      |
+| Time                       | hora en la cual se tomo                                                                                       | object        | 22 feb 1975 - 20 septiembre 2019                                                                                                                                                      |
+| Longitude                  | latitud en la que se realizo la medida                                                                        | float64       | -77.1 - 86                                                                                                                                                                            |
+| Longitude                  | longitude en la que se realizo la medida                                                                      | float64       | -180 - 180                                                                                                                                                                            |
+| Type                       | tipo origen del movimiento de tierra, puede ser por terremotos, explosion, o liberacion de presión de la roca | object        | Earthquake, Nuclear Explosion, Rock Burst                                                                                                                                             |
+| Depth                      | la profundida en la cual se presento la falla                                                                 | float64       | 14.5 - 700                                                                                                                                                                            |
+| Depth Error                | error de la medicion de profundidad                                                                           | float64       | 1.8 - 91.35                                                                                                                                                                           |
+| Depth Seismic Stations     | profundidad a la cual estaba la estación de monitoreo                                                         | float64       | 146-934                                                                                                                                                                               |
+| Magnitude                  | la mangitud que se obtuvo                                                                                     | float64       | 5.5-9.1                                                                                                                                                                               |
+| Magnitude Type             | Tipo de magnitud puede ser ML (local Richter magnitude), MS(Surface wave mangnitude)                          | object        | ML: Local (Richter) magnitude - MS: surface wave magnitude scale - MB (Mb): Body wave magnitude scale - MW (Mw): Moment magnitude scale - MD (Md): Duration magnitude/signal duration |
+| Magnitude Error            | Error de medición                                                                                             | float64       | Error de medicion                                                                                                                                                                     |
+| Magnitude Seismic Stations | Estación de medicion                                                                                          | float64       | 0-821                                                                                                                                                                                 |
+| Azimuthal Gap              | Variable relacionada con la medicion                                                                          | float64       | 0-360                                                                                                                                                                                 |
+| Horizontal Distance        | Variable relacionada con la medicion                                                                          | float64       | 0.0045-37.874                                                                                                                                                                         |
+| Horizontal Error           | Variable relacionada con la medicion                                                                          | float64       | 0.085-99                                                                                                                                                                              |
+| Root Mean Square           | Variable relacionada con la medicion                                                                          | float64       | 0-3.44                                                                                                                                                                                |
+| ID                         | Identificador de la medicion                                                                                  | object        | 23412 valores diferentes                                                                                                                                                              |
+| Source                     | Instituto que reporto la informacion                                                                          | object        | US ,ISCGEM, ISCGEMSUP, CI,GCMT , NC,AK , OFFICIAL, UW , NN ,ATLAS,SE ,PR                                                                                                              |
+| Location Source            | Instituto que reporto la informacion                                                                          | object        | US ,ISCGEM, ISCGEMSUP, CI,GCMT , NC,AK , OFFICIAL, UW , NN ,ATLAS,SE ,PR                                                                                                              |
+| Magnitude Source           | Instituto que reporto la informacion                                                                          | object        | US ,ISCGEM, ISCGEMSUP, CI,GCMT , NC,AK , OFFICIAL, UW , NN ,ATLAS,SE ,PR                                                                                                              |
+| Status                     | solo se tienen dos valores: reviewed, Automatic                                                               | object        | reviewed, Automatic                                                                                                                                                                   |
 
 - **Variable**: nombre de la variable.
 - **Descripción**: breve descripción de la variable.
 - **Tipo de dato**: tipo de dato que contiene la variable.
 - **Rango/Valores posibles**: rango o valores que puede tomar la variable.
 - **Fuente de datos**: fuente de los datos de la variable.
+
 

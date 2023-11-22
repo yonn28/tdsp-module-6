@@ -2,11 +2,11 @@
 
 ## Origen de los datos
 
-- los datos son tomados del siguiente [link](https://www.kaggle.com/code/mohamedoukajbar/earthquake-data-analysis-and-clustering-earthquake/input) .
+- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
 
 ## Especificación de los scripts para la carga de datos
 
-- los scripts estan el la ruta scripts/data_acquisition/main.py
+- [ ] Especificar los scripts utilizados para la carga de los datos. 
 
 ## Referencias a rutas o bases de datos origen y destino
 
@@ -14,9 +14,9 @@
 
 ### Rutas de origen de datos
 
-- los datos se encuentran en un archivo .csv
-- Estan en formato csv.
-- se eliminan algunas de las columnas que tienen mas relacion con la medicion que no tanto con la magnitud, y tambien se imputan algunos de los datos usando la media y la moda para el caso de las variables categoricas.
+- [ ] Especificar la ubicación de los archivos de origen de los datos.
+- [ ] Especificar la estructura de los archivos de origen de los datos.
+- [ ] Describir los procedimientos de transformación y limpieza de los datos.
 
 ### Base de datos de destino
 
