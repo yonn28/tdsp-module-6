@@ -166,6 +166,8 @@ def predict(data: ApiInput):
     return prediction
 
 
+X_test
+
 # +
 inp = ApiInput(features=[-46.2066,165.9628,0,20.0,8,1])
 print(type(inp), inp.features)

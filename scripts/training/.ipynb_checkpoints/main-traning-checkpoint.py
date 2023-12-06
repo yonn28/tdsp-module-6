@@ -3,6 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
+import tensorflow as tf
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
@@ -92,4 +93,30 @@ reg.score(X_test, y_test)
 
 # Probando una red neuronal profunda
 
+X_train.shape[1]
 
+input_layer = tf.keras.layers.Input(shape=X_train.shape[1])
+
+x=tf.keras.layers.Dense(units=20, activation="relu")(input_layer)
+
+output_layer = tf.keras.layers.Dense(units=1, activation="linear")(x)
+
+model = tf.keras.models.Model(inputs=input_layer,outputs=output_layer)
+
+model.compile(optimizer='adam', loss="mse",metrics=['mae'])
+
+history=model.fit(x=X_train, y=y_train, epochs=20, batch_size=32)
+
+plt.plot(history.history['loss'], label='Training Loss')
+
+from sklearn.metrics import mean_absolute_error
+
+predictions = model.predict(X_test)
+
+mae = mean_absolute_error(y_test, predictions)
+
+mae
+
+predictions
+
+y_test
